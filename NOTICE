@@ -1,0 +1,49 @@
+koparse — Notice
+================
+
+Scope of CC0
+------------
+The GEUL project's own work in this repository — code, documentation, data and
+other material we created — is dedicated to the public domain under CC0 1.0
+Universal. LICENSE holds the CC0 1.0 legal text verbatim (unmodified, so that
+it is recognised as CC0-1.0); this section states what it covers.
+
+CC0 covers only our own work. Third-party material keeps its own license and is
+not covered by CC0: the Go modules listed below.
+
+--------------------------------------------------------------------------------
+Go (module: github.com/geul-org/koparse)
+--------------------------------------------------------------------------------
+* github.com/park-jun-woo/toulmin/go  v0.0.0-20261030175336-eaae1acd5259
+  (package pkg/toulmin — the TAN judgement engine)
+    License:     MIT
+    Copyright:   Copyright (c) 2026 park-jun-woo
+    URL:         https://github.com/park-jun-woo/toulmin
+
+* golang.org/x/text  v0.43.0  (package unicode/norm — NFC normalization)
+    License:     BSD-3-Clause
+    Copyright:   Copyright 2009 The Go Authors.
+    URL:         https://golang.org/x/text
+
+The modules' LICENSE files hold the full texts.
+
+--------------------------------------------------------------------------------
+Lists and test data
+--------------------------------------------------------------------------------
+pkg/lexicon/data (particle/ending list, property nouns, idiom frames, class
+list) and pkg/config/default.json are our own work (CC0). The class list names
+Wikidata QIDs (CC0).
+
+testdata/fixture.json holds Wikidata labels, aliases, descriptions, P31 values
+and statements (Wikidata, CC0 1.0) taken from an internal noun identification
+test of 2026-10-31.
+
+Lexicon sources
+---------------
+koparse builds its lexicon only from CC0 sources (Wikidata labels and lexemes)
+and from material the GEUL project creates itself. Non-CC0 dictionaries and
+analyzers (for example mecab-ko-dic, Kiwi, Standard Korean Language Dictionary)
+may be used internally to measure accuracy, but none of their content is copied
+into this repository. Evaluation texts (e.g. Wikipedia extracts, CC BY-SA) and
+gold annotations are kept outside the repository; the evaluation tool takes
+their paths as arguments.

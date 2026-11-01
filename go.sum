@@ -1,0 +1,4 @@
+github.com/park-jun-woo/toulmin/go v0.0.0-20261030175336-eaae1acd5259 h1:vv/IN96yz/AYO0djSR4kyxgSU1h3XWYGxV4a/qBVJlw=
+github.com/park-jun-woo/toulmin/go v0.0.0-20261030175336-eaae1acd5259/go.mod h1:09Cg+NmhGKlCEy0YBEIsim/6UU7+AekSAmT1W+T4oa8=
+golang.org/x/text v0.43.0 h1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=
+golang.org/x/text v0.43.0/go.mod h1:hbSIYA/amXcRXTFSZqh8tWHEoqRvvbKPJ2uz/KU+a+s=
