@@ -253,7 +253,7 @@ type Knowledge interface {
 | 자료 | 용도 |
 |---|---|
 | 저장소 밖 표본 (백과 10문장) | 첫 칸. 정제된 문체 |
-| `test/find-verb/samples.json` (구어 프롬프트 100문장) | 목표 시장에 가까운 구어 |
+| 저장소 밖 표본 (구어 프롬프트 100문장) | 목표 시장에 가까운 구어 |
 | 손으로 만든 정답 분리 1,000어절 (백과 500 + 구어 500) | 분리 정확도 |
 
 - **지표:** 분리 정확도, 명사 식별 정밀도(목표 95% 이상)·재현율·버림 비율, 규칙별 정밀도.
@@ -315,7 +315,7 @@ type Knowledge interface {
 
 ## 14. 의존과 라이선스
 
-- Go 모듈 `github.com/geul-org/koparse`. 다른 저장소처럼 공개 커밋의 pseudo-version을 require하고, 로컬에서는 `draft/go.work`로 묶는다.
+- Go 모듈 `github.com/geul-org/koparse`. 다른 저장소처럼 공개 커밋의 pseudo-version을 require하고, 로컬에서는 `repos/go.work`로 묶는다.
 - 의존:
   - toulmin(MIT, park-jun-woo/toulmin)
   - silk(CC0, geul-org/silk)
