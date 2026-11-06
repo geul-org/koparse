@@ -3,7 +3,7 @@
 package main
 
 // options are the koparse-eval arguments. Sample texts, gold files and
-// outputs live outside the repository (files/koparse/).
+// outputs live outside the repository.
 type options struct {
 	fixture   string
 	config    string
